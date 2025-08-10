@@ -43,8 +43,8 @@ Follow these steps to get the platform running on your local machine.
 1.  **Clone the Repository**
 
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/Vamshi9415/ChainGraph_hackrx
+    cd ChainGraph_hackrx
     ```
 
 2.  **Create a Virtual Environment** (Recommended)
