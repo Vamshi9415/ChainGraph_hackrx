@@ -9,7 +9,7 @@ This platform is more than just a text scraper; it's an end-to-end analysis engi
 
 -----
 
-### Universal Document Compatibility 📚
+### Universal Document Compatibility 
 
 The system is built to handle a wide variety of file formats, using specialized processors to extract rich, structured information from each one.
 
@@ -23,8 +23,8 @@ The system is built to handle a wide variety of file formats, using specialized 
 ### Advanced AI & Processing
 
   * **Intelligent Retrieval & Re-ranking**: Employs a hybrid retrieval system using semantic search to find relevant information and a sophisticated Cross-Encoder to re-rank the results, ensuring the most accurate context is used to answer your question.
-  * **Autonomous Mission Agent 🕵️‍♂️**: Can detect and execute complex, multi-step "missions" described within a document. This agent can use tools to fetch and process data from live URLs, follow a chain of logic, and deliver a final, synthesized answer.
-  * **Strict Language Enforcement 🌐**: Automatically detects a document's native language (e.g., English, Spanish, Hindi, German) and ensures all generated answers are strictly in that same language, providing a seamless experience for global users.
+  * **Autonomous Mission Agent **: Can detect and execute complex, multi-step "missions" described within a document. This agent can use tools to fetch and process data from live URLs, follow a chain of logic, and deliver a final, synthesized answer.
+  * **Strict Language Enforcement **: Automatically detects a document's native language (e.g., English, Spanish, Hindi, German) and ensures all generated answers are strictly in that same language, providing a seamless experience for global users.
   * **Optimized & Scalable Performance**: Built with `asyncio` and `FastAPI`, the system is designed for high-throughput, non-blocking I/O. It also auto-detects `CUDA` or `MPS` devices to leverage GPU acceleration for model inference, ensuring rapid processing times.
 
 -----
