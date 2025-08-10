@@ -1,116 +1,142 @@
-# Enhanced Language-Strict Document-Targeted RAG System (v13.0)
+Of course. Here is a completely revised and comprehensive README file, structured like a professional project document, incorporating a detailed explanation of the environment setup and all supported file types.
 
-This project implements a sophisticated, high-performance Retrieval-Augmented Generation (RAG) system designed to answer questions based on the content of various document types. It features strict language enforcement, specialized document processors, adaptive content chunking, and an intelligent retrieval pipeline with re-ranking.
+-----
 
-A key feature is its ability to handle "mission documents"—specialized instructions that require executing a series of steps, including fetching data from live URLs, to find a specific piece of information.
+This project provides a high-performance, AI-powered API designed to read, understand, and answer questions about complex documents. It bridges the gap between static files and dynamic interaction, allowing you to converse with your data—whether it's in a dense PDF report, a multi-sheet Excel file, or a corporate PowerPoint presentation.
 
-This version introduces significantly **enhanced processors for PPTX and XLSX files**, enabling more structured, detailed, and context-aware data extraction.
+At its core, it leverages a sophisticated **Retrieval-Augmented Generation (RAG)** pipeline to deliver accurate, context-aware answers, making information retrieval faster and more intuitive than ever before.
 
-## ✨ Core Features
+## Core Capabilities
 
-- **Multi-Format Document Processing**: Handles a wide range of formats:
-    - **📄 Documents**: PDF, DOCX, TXT, HTML
-    - **📊 Spreadsheets**: **XLSX** (with advanced multi-sheet analysis and table formatting)
-    - **🖼️ Presentations**: **PPTX** (extracting text, tables, notes, and preserving slide structure)
-    - **📸 Images**: PNG, JPEG (with Pytesseract for OCR)
-- **Strict Language Enforcement**: Detects the document's language and ensures all answers are generated strictly in that language, regardless of the question's language.
-- **Adaptive Chunking & Retrieval**: Dynamically adjusts content chunking strategy based on document type and content. The retrieval system uses a hybrid approach with semantic search (FAISS), importance scoring, and a Cross-Encoder for re-ranking, ensuring high relevance.
-- **Mission Execution Agent**: A specialized agent detects and executes multi-step "missions" described in documents. It uses tools to fetch and process data from URLs to solve complex queries.
-- **Optimized Performance**: Leverages `asyncio` for concurrent request handling and a `ThreadPoolExecutor` for parallelizing CPU-bound tasks like document parsing. It also includes auto-detection for `CUDA` or `MPS` devices for accelerated model inference.
-- **Robust & Scalable API**: Built with FastAPI, featuring token-based authentication, per-request logging, and detailed health check/capability endpoints.
+This platform is more than just a text scraper; it's an end-to-end analysis engine with a powerful set of features.
 
----
+-----
 
-## 🚀 Enhancements in This Version
+### Universal Document Compatibility 📚
 
-### Enhanced XLSX Processor (`EnhancedXLSXTableExtractor`)
-- **Multi-Strategy Parsing**: Tries different parsing strategies (with and without headers) and chooses the best one based on data quality metrics.
-- **Cross-Sheet Analysis**: Generates a summary of relationships and common themes found across multiple sheets in a workbook.
-- **Rich Formatting & Analysis**: Tables are not just extracted but formatted with detailed metadata, including dimensions, data density, column statistics, data type inference, and sample values.
-- **Mission Content Detection**: Actively scans for keywords and patterns related to mission objectives within tables.
+The system is built to handle a wide variety of file formats, using specialized processors to extract rich, structured information from each one.
 
-### Enhanced PPTX Processor (`EnhancedPPTXTextExtractor`)
-- **Structured Content Extraction**: Preserves the logical structure of a presentation by identifying and separating titles, bullet points, paragraphs, and speaker notes.
-- **Table Extraction**: Extracts and formats tables directly from presentation slides.
-- **Hierarchical Content Parsing**: Correctly processes text from grouped shapes and maintains indentation levels for nested bullet points.
-- **Comprehensive Metadata**: Extracts presentation title, author, and other core properties.
+  * **Documents**: `PDF`, `DOCX`, `TXT`, `HTML`
+  * **Spreadsheets (`XLSX`)**: Goes beyond simple text extraction. It performs multi-sheet analysis, intelligently parses tables (even without clear headers), and generates summaries of relationships and themes across the entire workbook.
+  * **Presentations (`PPTX`)**: Preserves the logical structure of a presentation by extracting content from slides, including titles, bullet points, tables, images, and speaker notes.
+  * **Images (`PNG`, `JPEG`)**: Uses an integrated Tesseract OCR engine to extract text directly from images, making visual content searchable.
 
----
+-----
+
+### Advanced AI & Processing
+
+  * **Intelligent Retrieval & Re-ranking**: Employs a hybrid retrieval system using semantic search to find relevant information and a sophisticated Cross-Encoder to re-rank the results, ensuring the most accurate context is used to answer your question.
+  * **Autonomous Mission Agent 🕵️‍♂️**: Can detect and execute complex, multi-step "missions" described within a document. This agent can use tools to fetch and process data from live URLs, follow a chain of logic, and deliver a final, synthesized answer.
+  * **Strict Language Enforcement 🌐**: Automatically detects a document's native language (e.g., English, Spanish, Hindi, German) and ensures all generated answers are strictly in that same language, providing a seamless experience for global users.
+  * **Optimized & Scalable Performance**: Built with `asyncio` and `FastAPI`, the system is designed for high-throughput, non-blocking I/O. It also auto-detects `CUDA` or `MPS` devices to leverage GPU acceleration for model inference, ensuring rapid processing times.
+
+-----
 
 ## 🛠️ Setup and Installation
 
+Follow these steps to get the platform running on your local machine.
+
 ### Prerequisites
-- Python 3.8+
-- [Tesseract OCR Engine](https://github.com/tesseract-ocr/tesseract): Required for image processing. Ensure it's installed and the `tesseract` command is in your system's PATH.
+
+  * Python 3.8+
+  * **Tesseract OCR Engine**: This is required for processing text within images. You must install it on your system and ensure the `tesseract` command is available in your system's PATH. You can find instructions [here](https://github.com/tesseract-ocr/tesseract).
 
 ### Installation Steps
 
-1.  **Clone the repository:**
+1.  **Clone the Repository**
+
     ```bash
     git clone <your-repo-url>
     cd <your-repo-directory>
     ```
 
-2.  **Create and activate a virtual environment (recommended):**
+2.  **Create a Virtual Environment** (Recommended)
+    This keeps your project dependencies isolated.
+
     ```bash
+    # Create the environment
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+    # Activate it (command differs by OS)
+    # On macOS/Linux:
+    source venv/bin/activate
+    # On Windows:
+    .\venv\Scripts\activate
     ```
 
-3.  **Install the required packages:**
+3.  **Install Dependencies**
+
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Set up environment variables:**
-    Create a `.env` file in the root directory and add your authentication token. If not set, it defaults to the value in the script.
+4.  **Configure Environment Variables**
+    This is a critical step for providing the necessary API keys and configuration. Create a file named `.env` in the root of your project directory. Copy the template below into this file and replace the placeholder text with your actual credentials.
+
     ```env
-    # .env
-    AUTH_TOKEN="2b55e57dd2584f97b52854b0738dc5608ab353c4fbc8d0409b738b7b21218fbb"
+    # --- API Endpoint Security & Server Config ---
+    # This token is used to secure your API endpoints via Bearer authentication.
+    AUTH_TOKEN="your_secret_authentication_token_here"
     PORT=8000
+
+    # --- LangChain & LangSmith Configuration (for Tracing & Debugging) ---
+    LANGCHAIN_API_KEY="your_langchain_api_key_here"
+    LANGSMITH_TRACING="true"
+    LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+    LANGCHAIN_PROJECT="Appname"
+
+    # --- API Keys for AI/LLM Models ---
+    HUGGINGFACE_TOKEN="your_huggingface_token_here"
+    GOOGLE_API_KEY="your_google_api_key_here"
+    # here we used gemini api key 
     ```
 
----
+-----
 
 ## 🏃‍♀️ Running the Application
 
-Once the setup is complete, run the FastAPI server using Uvicorn:
+Once the setup is complete, you can start the FastAPI server using Uvicorn.
 
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
-The API will be available at `http://localhost:8000`.
 
----
+The API is now live and will be available at `http://localhost:8000`.
+
+-----
 
 ## 🔌 API Endpoints
 
-### 1. Process Document and Answer Questions
+The platform exposes a simple yet powerful REST API for integration.
 
-- **Endpoint**: `POST /api/v1/hackrx/run`
-- **Description**: The main endpoint to submit a document URL and a list of questions. The system processes the document and returns answers.
-- **Authentication**: Requires a `Bearer` token in the `Authorization` header.
-- **Request Body**:
+### 1\. Process a Document and Ask Questions
+
+This is the main endpoint for the service. Submit a document URL and a list of questions to receive AI-generated answers.
+
+  * **Method**: `POST`
+  * **Endpoint**: `/api/v1/hackrx/run`
+  * **Authentication**: `Bearer` Token (using the `AUTH_TOKEN` from your `.env` file).
+  * **Request Body**:
     ```json
     {
       "documents": "URL_TO_YOUR_DOCUMENT",
       "questions": [
-        "What is the capital of France?",
-        "Who is the main author of the report?"
+        "What is the key finding in the summary?",
+        "Who is listed as the primary contact?"
       ]
     }
     ```
-- **Example cURL Request**:
+  * **Example `cURL` Request**:
     ```bash
     curl -X POST "http://localhost:8000/api/v1/hackrx/run" \
     -H "Content-Type: application/json" \
-    -H "Authorization: Bearer 2b55e57dd2584f97b52854b0738dc5608ab353c4fbc8d0409b738b7b21218fbb" \
+    -H "Authorization: Bearer your_secret_authentication_token_here" \
     -d '{
-      "documents": "[https://example.com/document.pdf](https://example.com/document.pdf)",
+      "documents": "https://example.com/document.pdf",
       "questions": ["What is the primary conclusion?"]
     }'
     ```
-- **Success Response (200 OK)**:
+  * **Success Response (`200 OK`)**:
     ```json
     {
       "answers": [
@@ -119,51 +145,16 @@ The API will be available at `http://localhost:8000`.
     }
     ```
 
-### 2. Health Check
+### 2\. Health Check
 
-- **Endpoint**: `GET /health`
-- **Description**: Provides a status check of the service, including the running version, enabled features, and loaded models.
-- **Example Response**:
-    ```json
-    {
-        "status": "healthy",
-        "version": "13.0 - Enhanced Language-Strict Document-Targeted RAG with Improved PPTX/XLSX Processing",
-        "features": {
-            "reranking": true,
-            "ocr_multilingual": true,
-            "language_detection": true
-        },
-        "models": {
-            "embedding_fast": "sentence-transformers/all-MiniLM-L6-v2",
-            "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
-            "llm": "gemini-2.5-flash-lite",
-            "ocr": "pytesseract"
-        },
-        "device": "cuda",
-        "timestamp": "2025-08-10T10:48:53.000Z"
-    }
-    ```
+Provides a quick status check of the service, confirming it's online and operational.
 
-### 3. System Capabilities
+  * **Method**: `GET`
+  * **Endpoint**: `/health`
 
-- **Endpoint**: `GET /api/v1/capabilities`
-- **Description**: Returns a detailed JSON object outlining the system's processing capabilities for each document type, retrieval strategy, and special features.
-- **Example Response Snippet**:
-    ```json
-    {
-        "document_processing": {
-            "pptx": {
-                "handler": "EnhancedPPTXTextExtractor",
-                "features": ["slide content extraction", "table extraction", "notes extraction", "URL detection", "bullet point processing"]
-            },
-            "xlsx": {
-                "handler": "EnhancedXLSXTableExtractor",
-                "features": ["advanced table extraction", "multi-sheet analysis", "cross-sheet relationships"]
-            }
-        },
-        "retrieval": {
-            "handler": "EnhancedRetriever",
-            "features": ["vector similarity", "cross-encoder reranking", "importance filtering"]
-        }
-    }
-    ```
+### 3\. System Capabilities
+
+Returns a detailed JSON object outlining all system capabilities, including supported document handlers and enabled AI features.
+
+  * **Method**: `GET`
+  * **Endpoint**: `/api/v1/capabilities`
