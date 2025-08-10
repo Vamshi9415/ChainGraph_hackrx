@@ -1,6 +1,3 @@
-Of course. Here is a completely revised and comprehensive README file, structured like a professional project document, incorporating a detailed explanation of the environment setup and all supported file types.
-
------
 
 This project provides a high-performance, AI-powered API designed to read, understand, and answer questions about complex documents. It bridges the gap between static files and dynamic interaction, allowing you to converse with your data—whether it's in a dense PDF report, a multi-sheet Excel file, or a corporate PowerPoint presentation.
 
