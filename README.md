@@ -90,7 +90,7 @@ Follow these steps to get the platform running on your local machine.
 
 -----
 
-## 🏃‍♀️ Running the Application
+##  Running the Application
 
 Once the setup is complete, you can start the FastAPI server using Uvicorn.
 
@@ -102,7 +102,7 @@ The API is now live and will be available at `http://localhost:8000`.
 
 -----
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 The platform exposes a simple yet powerful REST API for integration.
 
