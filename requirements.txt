@@ -1,0 +1,34 @@
+# --- Core Frameworks ---
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# --- Machine Learning & AI ---
+torch
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-google-genai
+sentence-transformers
+faiss-cpu # or faiss-gpu if you have a compatible NVIDIA GPU
+
+# --- Document Processing ---
+pypdf2 # Commonly used by langchain document loaders
+python-docx
+python-pptx
+openpyxl
+pandas
+beautifulsoup4
+lxml # Often used with BeautifulSoup for better parsing performance
+fitz # PyMuPDF, for the enhanced PDF processor
+pytesseract # For OCR
+Pillow # Image processing for Pytesseract
+
+# --- Language Detection ---
+langdetect
+
+# --- Utilities ---
+requests
+aiofiles
+numpy
