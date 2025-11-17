@@ -1,0 +1,1681 @@
+2025-08-21 14:06:28,622 - root - INFO - Using device: cuda
+2025-08-21 14:06:29,137 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:06:30,400 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A2A52BA9E0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 23d83063-1622-43a5-bdac-36977e76c166)')
+2025-08-21 14:06:30,404 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:06:30,566 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A2A5298370>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 318778f6-7f6b-49cd-babd-297143dcd933)')
+2025-08-21 14:06:30,569 - root - WARNING - Failed to initialize re-ranker: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-21 14:06:30,657 - root - INFO - LLM loaded successfully
+2025-08-21 14:06:30,658 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:08:51,918 - d382ec93-6baf-44c9-8706-a22ae72f9779 - INFO - Universal processing: 1 questions
+2025-08-21 14:08:52,605 - root - INFO - Detected content type: application/pdf
+2025-08-21 14:08:52,651 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 14:08:54,098 - root - INFO - Detected document language: English (en)
+2025-08-21 14:08:54,099 - d382ec93-6baf-44c9-8706-a22ae72f9779 - INFO - Processed pdf document: 4556 chars
+2025-08-21 14:08:54,099 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 14:08:55,557 - root - INFO - Fetching URL: https://register.hackrx.in/submissions/myFavouriteCity
+2025-08-21 14:08:56,060 - root - INFO - Retrieved JSON data: {
+  "success": true,
+  "message": "Favorite city retrieved successfully",
+  "status": 200,
+  "data": {
+    "city": "Tokyo"
+  }
+}...
+2025-08-21 14:08:56,946 - d382ec93-6baf-44c9-8706-a22ae72f9779 - INFO - Completed in 5.03 seconds
+2025-08-21 14:10:47,228 - 7c2c9d1e-82f1-4acc-9fcd-1afafe020c84 - INFO - Universal processing: 1 questions
+2025-08-21 14:10:47,822 - root - INFO - Detected content type: application/pdf
+2025-08-21 14:10:47,832 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 14:10:47,857 - root - INFO - Detected document language: English (en)
+2025-08-21 14:10:47,858 - 7c2c9d1e-82f1-4acc-9fcd-1afafe020c84 - INFO - Processed pdf document: 4556 chars
+2025-08-21 14:10:47,858 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 14:10:48,722 - root - INFO - Fetching URL: https://register.hackrx.in/submissions/myFavouriteCity
+2025-08-21 14:10:49,735 - root - INFO - Retrieved JSON data: {
+  "success": true,
+  "message": "Favorite city retrieved successfully",
+  "status": 200,
+  "data": {
+    "city": "Tokyo"
+  }
+}...
+2025-08-21 14:10:50,552 - 7c2c9d1e-82f1-4acc-9fcd-1afafe020c84 - INFO - Completed in 3.33 seconds
+2025-08-21 14:11:01,964 - 4a32ce0a-88ce-47dd-bbd0-9b3ad1869479 - INFO - Universal processing: 1 questions
+2025-08-21 14:11:02,680 - root - INFO - Detected content type: application/pdf
+2025-08-21 14:11:02,693 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 14:11:02,718 - root - INFO - Detected document language: English (en)
+2025-08-21 14:11:02,719 - 4a32ce0a-88ce-47dd-bbd0-9b3ad1869479 - INFO - Processed pdf document: 4556 chars
+2025-08-21 14:11:02,719 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 14:11:03,690 - root - INFO - Fetching URL: https://register.hackrx.in/submissions/myFavouriteCity
+2025-08-21 14:11:07,468 - root - INFO - Retrieved JSON data: {
+  "success": true,
+  "message": "Favorite city retrieved successfully",
+  "status": 200,
+  "data": {
+    "city": "Tokyo"
+  }
+}...
+2025-08-21 14:11:08,416 - 4a32ce0a-88ce-47dd-bbd0-9b3ad1869479 - INFO - Completed in 6.45 seconds
+2025-08-21 14:27:20,274 - root - INFO - Using device: cuda
+2025-08-21 14:27:21,594 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:27:27,275 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:27:27,278 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:27:32,868 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:29:26,552 - root - INFO - Using device: cuda
+2025-08-21 14:29:27,204 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:29:32,716 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:29:32,719 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:29:37,751 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:29:37,765 - root - INFO - LLM loaded successfully
+2025-08-21 14:29:37,766 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:31:58,793 - root - INFO - Using device: cuda
+2025-08-21 14:31:59,197 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:32:04,715 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:32:04,718 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:32:09,751 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:32:09,765 - root - INFO - LLM loaded successfully
+2025-08-21 14:32:09,765 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:32:31,141 - root - INFO - Using device: cuda
+2025-08-21 14:32:32,138 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:32:37,184 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:32:37,187 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:32:42,119 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:32:42,134 - root - INFO - LLM loaded successfully
+2025-08-21 14:32:42,134 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:32:53,084 - root - INFO - Using device: cuda
+2025-08-21 14:32:53,934 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:33:00,394 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:33:00,397 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:33:04,884 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:33:04,900 - root - INFO - LLM loaded successfully
+2025-08-21 14:33:04,900 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:33:47,607 - root - INFO - Using device: cuda
+2025-08-21 14:33:48,479 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:33:54,427 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:33:54,430 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:33:59,271 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:33:59,287 - root - INFO - LLM loaded successfully
+2025-08-21 14:33:59,287 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:34:10,896 - root - INFO - Using device: cuda
+2025-08-21 14:34:11,604 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:34:17,980 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:34:17,982 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:34:22,710 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:34:22,725 - root - INFO - LLM loaded successfully
+2025-08-21 14:34:22,726 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:34:33,553 - root - INFO - Using device: cuda
+2025-08-21 14:34:34,158 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:34:39,460 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:34:39,463 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:34:44,180 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:34:44,197 - root - INFO - LLM loaded successfully
+2025-08-21 14:34:44,197 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:34:54,731 - root - INFO - Using device: cuda
+2025-08-21 14:34:55,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:35:00,180 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:35:00,183 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:35:04,950 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:35:04,966 - root - INFO - LLM loaded successfully
+2025-08-21 14:35:04,966 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:39:55,348 - root - INFO - Using device: cuda
+2025-08-21 14:39:55,477 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:40:01,167 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:40:01,170 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:40:06,896 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:40:06,913 - root - INFO - LLM loaded successfully
+2025-08-21 14:40:06,913 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:42:14,902 - root - INFO - Using device: cuda
+2025-08-21 14:42:15,035 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:42:22,019 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:42:22,022 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:42:28,725 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:42:28,741 - root - INFO - LLM loaded successfully
+2025-08-21 14:42:28,741 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:42:39,193 - root - INFO - Using device: cuda
+2025-08-21 14:42:39,943 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:42:45,516 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:42:45,519 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:42:50,903 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:42:50,919 - root - INFO - LLM loaded successfully
+2025-08-21 14:42:50,919 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:43:02,184 - root - INFO - Using device: cuda
+2025-08-21 14:43:02,508 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:43:08,457 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:43:08,460 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:43:27,317 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:43:27,333 - root - INFO - LLM loaded successfully
+2025-08-21 14:43:27,333 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:43:34,144 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - INFO - Universal processing: 1 questions
+2025-08-21 14:43:34,916 - root - INFO - Detected content type: application/pdf
+2025-08-21 14:43:34,928 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 14:43:35,369 - root - INFO - Detected document language: English (en)
+2025-08-21 14:43:35,369 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - INFO - Processed pdf document: 4556 chars
+2025-08-21 14:43:35,370 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 14:43:35,375 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - INFO - Executing mission agent to find flight number...
+2025-08-21 14:43:52,841 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - INFO - Raw mission result: 69e3d8
+2025-08-21 14:43:52,842 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - WARNING - Could not extract flight number, returning raw result
+2025-08-21 14:43:52,842 - d0f2470c-928a-4ff5-8337-0edcf369d8f4 - INFO - Completed in 18.69 seconds
+2025-08-21 14:46:08,443 - root - INFO - Using device: cuda
+2025-08-21 14:46:09,065 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:46:14,842 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:46:14,845 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:46:19,498 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:50:37,973 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 14:50:38,081 - root - INFO - LLM loaded successfully
+2025-08-21 14:50:38,082 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:50:52,726 - root - INFO - Using device: cuda
+2025-08-21 14:50:53,171 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:50:58,102 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:50:58,105 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:51:01,948 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:51:06,659 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 14:51:06,682 - root - INFO - LLM loaded successfully
+2025-08-21 14:51:06,682 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:51:49,153 - root - INFO - Using device: cuda
+2025-08-21 14:51:49,678 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:51:54,404 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:51:54,407 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:51:58,409 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:52:02,304 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 14:52:02,325 - root - INFO - LLM loaded successfully
+2025-08-21 14:52:02,325 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:52:12,951 - root - INFO - Using device: cuda
+2025-08-21 14:52:13,557 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:52:18,438 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:52:18,441 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:52:23,204 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:52:27,122 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 14:52:27,140 - root - INFO - LLM loaded successfully
+2025-08-21 14:52:27,141 - root - INFO - Pytesseract OCR is available.
+2025-08-21 14:52:37,667 - root - INFO - Using device: cuda
+2025-08-21 14:52:38,658 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 14:52:43,604 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 14:52:43,607 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 14:52:48,350 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 14:52:52,730 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 14:52:52,744 - root - INFO - LLM loaded successfully
+2025-08-21 14:52:52,744 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:39:50,626 - root - INFO - Using device: cuda
+2025-08-21 15:39:51,217 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:39:58,397 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:39:58,400 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:40:04,028 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:40:12,822 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:40:12,846 - root - INFO - LLM loaded successfully
+2025-08-21 15:40:12,846 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:40:23,963 - root - INFO - Using device: cuda
+2025-08-21 15:40:24,414 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:40:31,029 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:40:31,032 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:40:36,442 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:40:40,893 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:40:40,911 - root - INFO - LLM loaded successfully
+2025-08-21 15:40:40,912 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:40:52,369 - root - INFO - Using device: cuda
+2025-08-21 15:40:53,017 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:40:58,420 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:40:58,423 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:41:02,794 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:41:07,252 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:41:07,268 - root - INFO - LLM loaded successfully
+2025-08-21 15:41:07,269 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:41:30,129 - e4e51bad-e035-45f9-9286-9ddf676273f8 - INFO - Universal processing: 1 questions
+2025-08-21 15:41:30,803 - root - INFO - Detected content type: application/pdf
+2025-08-21 15:41:30,872 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 15:41:31,160 - root - INFO - Detected document language: English (en)
+2025-08-21 15:41:31,161 - e4e51bad-e035-45f9-9286-9ddf676273f8 - INFO - Processed pdf document: 4556 chars
+2025-08-21 15:41:31,161 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 15:41:31,167 - e4e51bad-e035-45f9-9286-9ddf676273f8 - INFO - Executing mission agent to find flight number...
+2025-08-21 15:41:45,928 - e4e51bad-e035-45f9-9286-9ddf676273f8 - INFO - Raw mission result: 1190ea
+2025-08-21 15:41:45,930 - e4e51bad-e035-45f9-9286-9ddf676273f8 - WARNING - Could not extract flight number, returning raw result
+2025-08-21 15:41:45,930 - e4e51bad-e035-45f9-9286-9ddf676273f8 - INFO - Completed in 15.80 seconds
+2025-08-21 15:44:17,331 - root - INFO - Using device: cuda
+2025-08-21 15:44:17,479 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:44:22,690 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:44:22,693 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:44:27,191 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:44:31,784 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:44:31,799 - root - INFO - LLM loaded successfully
+2025-08-21 15:44:31,799 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:50:12,666 - root - INFO - Using device: cuda
+2025-08-21 15:50:13,245 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:50:18,389 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:50:18,392 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:50:22,864 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:50:27,164 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:50:27,181 - root - INFO - LLM loaded successfully
+2025-08-21 15:50:27,182 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:50:38,988 - root - INFO - Using device: cuda
+2025-08-21 15:50:39,451 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:50:44,497 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:50:44,500 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:50:49,252 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:50:53,813 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:50:53,830 - root - INFO - LLM loaded successfully
+2025-08-21 15:50:53,830 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:51:05,732 - root - INFO - Using device: cuda
+2025-08-21 15:51:05,935 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:51:11,306 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:51:11,309 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:51:15,732 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:51:15,733 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:51:15,748 - root - INFO - LLM loaded successfully
+2025-08-21 15:51:15,748 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:51:25,228 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - INFO - Universal processing: 1 questions
+2025-08-21 15:51:25,962 - root - INFO - Detected content type: application/pdf
+2025-08-21 15:51:25,972 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 15:51:25,974 - root - INFO - Detected document language: English (en)
+2025-08-21 15:51:25,974 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - INFO - Processed pdf document: 4556 chars
+2025-08-21 15:51:25,975 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 15:51:25,979 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - INFO - Executing mission agent to find flight number...
+2025-08-21 15:51:34,126 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - INFO - Raw mission result: 977b9d
+2025-08-21 15:51:34,127 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - WARNING - Could not extract flight number, returning raw result
+2025-08-21 15:51:34,127 - 3cf1ec46-7687-42cc-92a3-9b5fbdd9cdeb - INFO - Completed in 8.91 seconds
+2025-08-21 15:52:00,262 - root - INFO - Using device: cuda
+2025-08-21 15:52:00,867 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:52:07,543 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:52:07,546 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:52:11,917 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:52:11,917 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:52:11,933 - root - INFO - LLM loaded successfully
+2025-08-21 15:52:11,933 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:52:23,508 - root - INFO - Using device: cuda
+2025-08-21 15:52:24,586 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:52:30,393 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:52:30,396 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:52:35,262 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:52:35,262 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:52:35,278 - root - INFO - LLM loaded successfully
+2025-08-21 15:52:35,278 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:52:46,898 - root - INFO - Using device: cuda
+2025-08-21 15:52:47,689 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:52:53,288 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:52:53,291 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:52:58,092 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:52:58,093 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:52:58,109 - root - INFO - LLM loaded successfully
+2025-08-21 15:52:58,110 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:54:46,823 - root - INFO - Using device: cuda
+2025-08-21 15:54:46,953 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:55:02,574 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:55:02,579 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:55:07,810 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:55:07,810 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:55:07,826 - root - INFO - LLM loaded successfully
+2025-08-21 15:55:07,827 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:55:18,761 - root - INFO - Using device: cuda
+2025-08-21 15:55:18,941 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:55:24,315 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:55:24,318 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:55:28,903 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:55:28,904 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:55:28,920 - root - INFO - LLM loaded successfully
+2025-08-21 15:55:28,920 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:55:41,323 - root - INFO - Using device: cuda
+2025-08-21 15:55:41,456 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:55:46,569 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:55:46,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:55:51,033 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:55:51,034 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:55:51,048 - root - INFO - LLM loaded successfully
+2025-08-21 15:55:51,048 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:57:28,632 - root - INFO - Using device: cuda
+2025-08-21 15:57:28,858 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:57:33,915 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:57:33,918 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:57:41,469 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:57:41,470 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:57:41,485 - root - INFO - LLM loaded successfully
+2025-08-21 15:57:41,485 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:57:52,745 - root - INFO - Using device: cuda
+2025-08-21 15:57:52,852 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:57:57,900 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:57:57,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:58:02,665 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:58:02,665 - root - WARNING - Failed to initialize re-ranker: name 'CrossEncoder' is not defined
+2025-08-21 15:58:02,680 - root - INFO - LLM loaded successfully
+2025-08-21 15:58:02,681 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:58:13,788 - root - INFO - Using device: cuda
+2025-08-21 15:58:14,418 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 15:58:19,836 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 15:58:19,839 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 15:58:37,315 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 15:58:41,489 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 15:58:41,507 - root - INFO - LLM loaded successfully
+2025-08-21 15:58:41,508 - root - INFO - Pytesseract OCR is available.
+2025-08-21 15:58:41,547 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - INFO - Universal processing: 1 questions
+2025-08-21 15:58:42,150 - root - INFO - Detected content type: application/pdf
+2025-08-21 15:58:42,162 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 15:58:42,434 - root - INFO - Detected document language: English (en)
+2025-08-21 15:58:42,434 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - INFO - Processed pdf document: 4556 chars
+2025-08-21 15:58:42,435 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 15:58:42,440 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - INFO - Executing mission agent to find flight number...
+2025-08-21 15:58:51,882 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - INFO - Raw mission result: 26f0b0
+2025-08-21 15:58:51,884 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - WARNING - Could not extract flight number, returning raw result
+2025-08-21 15:58:51,884 - a4be1289-8a3c-40d7-9ec6-25141b19f8d0 - INFO - Completed in 10.33 seconds
+2025-08-21 16:00:59,149 - root - INFO - Using device: cuda
+2025-08-21 16:01:09,891 - root - INFO - Using device: cuda
+2025-08-21 16:01:19,890 - root - INFO - Using device: cuda
+2025-08-21 16:01:29,716 - root - INFO - Using device: cuda
+2025-08-21 16:01:41,213 - root - INFO - Using device: cuda
+2025-08-21 16:01:51,237 - root - INFO - Using device: cuda
+2025-08-21 16:01:51,256 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:01:56,441 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:01:56,444 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:02:00,799 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:02:05,938 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:02:05,953 - root - INFO - LLM loaded successfully
+2025-08-21 16:02:05,954 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:02:18,109 - root - INFO - Using device: cuda
+2025-08-21 16:02:18,116 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:02:24,441 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:02:24,443 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:02:29,075 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:02:34,058 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:02:34,080 - root - INFO - LLM loaded successfully
+2025-08-21 16:02:34,080 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:03:52,719 - root - INFO - Using device: cuda
+2025-08-21 16:03:52,724 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:03:59,880 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:03:59,883 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:04:04,584 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:04:08,759 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:04:08,776 - root - INFO - LLM loaded successfully
+2025-08-21 16:04:08,776 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:04:20,719 - root - INFO - Using device: cuda
+2025-08-21 16:04:20,725 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:04:26,264 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:04:26,266 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:04:31,395 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:04:36,048 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:04:36,065 - root - INFO - LLM loaded successfully
+2025-08-21 16:04:36,066 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:04:47,743 - root - INFO - Using device: cuda
+2025-08-21 16:04:47,750 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:04:53,426 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:04:53,429 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:04:57,726 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:05:03,366 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:05:03,382 - root - INFO - LLM loaded successfully
+2025-08-21 16:05:03,382 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:05:42,535 - root - INFO - Using device: cuda
+2025-08-21 16:05:42,540 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:05:52,705 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:05:52,707 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:05:57,472 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:06:01,721 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:06:01,736 - root - INFO - LLM loaded successfully
+2025-08-21 16:06:01,736 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:06:13,795 - root - INFO - Using device: cuda
+2025-08-21 16:06:13,801 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:06:19,403 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:06:19,407 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:06:24,253 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:06:28,716 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:06:28,737 - root - INFO - LLM loaded successfully
+2025-08-21 16:06:28,738 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:06:42,940 - root - INFO - Using device: cuda
+2025-08-21 16:06:42,949 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:06:48,375 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:06:48,378 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:06:52,488 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:06:56,519 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:06:56,537 - root - INFO - LLM loaded successfully
+2025-08-21 16:06:56,538 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:07:09,155 - root - INFO - Using device: cuda
+2025-08-21 16:07:09,160 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:07:14,806 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:07:14,809 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:07:19,047 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:07:23,061 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:07:23,082 - root - INFO - LLM loaded successfully
+2025-08-21 16:07:23,083 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:07:35,220 - root - INFO - Using device: cuda
+2025-08-21 16:07:35,226 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:07:40,590 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:07:40,593 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:07:45,232 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:07:49,281 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:07:49,299 - root - INFO - LLM loaded successfully
+2025-08-21 16:07:49,300 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:08:02,239 - root - INFO - Using device: cuda
+2025-08-21 16:08:02,244 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:08:07,122 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:08:07,124 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:08:11,986 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:08:16,645 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:08:16,660 - root - INFO - LLM loaded successfully
+2025-08-21 16:08:16,661 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:08:36,409 - root - INFO - Using device: cuda
+2025-08-21 16:08:36,415 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:08:41,830 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:08:41,834 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:08:46,274 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:08:50,501 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:08:50,515 - root - INFO - LLM loaded successfully
+2025-08-21 16:08:50,515 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:09:02,500 - root - INFO - Using device: cuda
+2025-08-21 16:09:02,506 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:09:07,486 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:09:07,489 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:09:12,181 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:09:16,241 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:09:16,256 - root - INFO - LLM loaded successfully
+2025-08-21 16:09:16,256 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:09:44,243 - root - INFO - Using device: cuda
+2025-08-21 16:09:44,249 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:09:49,494 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:09:49,497 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:09:53,953 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:09:57,998 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:09:58,014 - root - INFO - LLM loaded successfully
+2025-08-21 16:09:58,015 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:11:30,068 - root - INFO - Using device: cuda
+2025-08-21 16:11:30,074 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:11:35,303 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:11:35,306 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:11:39,522 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:11:43,599 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:11:43,614 - root - INFO - LLM loaded successfully
+2025-08-21 16:11:43,615 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:11:55,967 - root - INFO - Using device: cuda
+2025-08-21 16:11:55,973 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:12:01,214 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:12:01,218 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:12:05,709 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:12:10,345 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:12:10,580 - root - INFO - LLM loaded successfully
+2025-08-21 16:12:10,581 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:12:22,566 - root - INFO - Using device: cuda
+2025-08-21 16:12:22,572 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:12:28,593 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:12:28,596 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:12:32,890 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:12:37,465 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:12:37,483 - root - INFO - LLM loaded successfully
+2025-08-21 16:12:37,483 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:12:50,184 - root - INFO - Using device: cuda
+2025-08-21 16:12:50,191 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:12:55,149 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:12:55,153 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:12:59,379 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:13:03,672 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:13:03,690 - root - INFO - LLM loaded successfully
+2025-08-21 16:13:03,691 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:13:15,552 - root - INFO - Using device: cuda
+2025-08-21 16:13:15,557 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:13:20,365 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:13:20,368 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:13:25,380 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:13:31,509 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:13:31,525 - root - INFO - LLM loaded successfully
+2025-08-21 16:13:31,525 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:17:41,625 - root - INFO - Using device: cuda
+2025-08-21 16:17:42,009 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:17:57,407 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:17:57,410 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:18:12,130 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:18:19,389 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:18:19,417 - root - INFO - LLM loaded successfully
+2025-08-21 16:18:19,417 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:18:31,714 - root - INFO - Using device: cuda
+2025-08-21 16:18:31,721 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:18:36,551 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:18:36,555 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:18:40,562 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:18:44,473 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:18:44,489 - root - INFO - LLM loaded successfully
+2025-08-21 16:18:44,489 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:19:04,759 - root - INFO - Using device: cuda
+2025-08-21 16:19:04,765 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:19:10,230 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:19:10,232 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:19:14,619 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:19:18,880 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:19:18,895 - root - INFO - LLM loaded successfully
+2025-08-21 16:19:18,896 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:19:31,466 - root - INFO - Using device: cuda
+2025-08-21 16:19:31,473 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:19:36,704 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:19:36,707 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:19:41,008 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:19:45,084 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:19:45,098 - root - INFO - LLM loaded successfully
+2025-08-21 16:19:45,098 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:19:58,251 - root - INFO - Using device: cuda
+2025-08-21 16:19:58,258 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:20:23,868 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:20:23,871 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:20:27,962 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:20:32,177 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:20:32,192 - root - INFO - LLM loaded successfully
+2025-08-21 16:20:32,192 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:20:44,107 - root - INFO - Using device: cuda
+2025-08-21 16:20:44,112 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:20:48,912 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:20:48,915 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:20:52,932 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:20:57,103 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:20:57,118 - root - INFO - LLM loaded successfully
+2025-08-21 16:20:57,119 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:21:08,839 - root - INFO - Using device: cuda
+2025-08-21 16:21:08,845 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:21:13,886 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:21:13,888 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:21:18,267 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:21:22,501 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:21:22,521 - root - INFO - LLM loaded successfully
+2025-08-21 16:21:22,521 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:22:00,891 - root - INFO - Using device: cuda
+2025-08-21 16:22:00,897 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:22:06,496 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:22:06,499 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:22:11,075 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:22:15,390 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:22:15,406 - root - INFO - LLM loaded successfully
+2025-08-21 16:22:15,406 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:22:26,854 - root - INFO - Using device: cuda
+2025-08-21 16:22:26,860 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:22:31,753 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:22:31,756 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:22:36,417 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:22:40,609 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:22:40,624 - root - INFO - LLM loaded successfully
+2025-08-21 16:22:40,624 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:22:52,420 - root - INFO - Using device: cuda
+2025-08-21 16:22:52,426 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:22:57,975 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:22:57,977 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:23:02,004 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:23:06,038 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:23:06,053 - root - INFO - LLM loaded successfully
+2025-08-21 16:23:06,053 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:23:18,430 - root - INFO - Using device: cuda
+2025-08-21 16:23:18,436 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:23:27,668 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:23:27,671 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:23:31,812 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:23:35,728 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:23:35,744 - root - INFO - LLM loaded successfully
+2025-08-21 16:23:35,745 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:23:47,702 - root - INFO - Using device: cuda
+2025-08-21 16:23:47,709 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:23:52,880 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:23:52,882 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:23:57,295 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:24:02,667 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:24:02,690 - root - INFO - LLM loaded successfully
+2025-08-21 16:24:02,691 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:24:26,855 - root - INFO - Using device: cuda
+2025-08-21 16:24:26,861 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:24:34,498 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:24:34,501 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:24:39,790 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:24:44,087 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:24:44,104 - root - INFO - LLM loaded successfully
+2025-08-21 16:24:44,104 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:24:57,913 - root - INFO - Using device: cuda
+2025-08-21 16:24:57,920 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:25:03,373 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:25:03,376 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:25:07,640 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:25:11,694 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:25:11,711 - root - INFO - LLM loaded successfully
+2025-08-21 16:25:11,712 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:25:23,215 - root - INFO - Using device: cuda
+2025-08-21 16:25:23,221 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:25:28,270 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:25:28,273 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:25:32,253 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:25:36,192 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:25:36,208 - root - INFO - LLM loaded successfully
+2025-08-21 16:25:36,209 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:25:50,421 - root - INFO - Using device: cuda
+2025-08-21 16:25:50,428 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:25:55,275 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:25:55,277 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:26:00,097 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:26:04,087 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:26:04,102 - root - INFO - LLM loaded successfully
+2025-08-21 16:26:04,102 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:26:16,911 - root - INFO - Using device: cuda
+2025-08-21 16:26:16,917 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:26:22,318 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:26:22,322 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:26:26,550 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:26:30,734 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:26:30,752 - root - INFO - LLM loaded successfully
+2025-08-21 16:26:30,752 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:26:43,443 - root - INFO - Using device: cuda
+2025-08-21 16:26:43,449 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:26:48,357 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:26:48,360 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:26:52,975 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:26:57,213 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:26:57,227 - root - INFO - LLM loaded successfully
+2025-08-21 16:26:57,227 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:27:09,285 - root - INFO - Using device: cuda
+2025-08-21 16:27:09,291 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:27:18,638 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:27:18,641 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:27:25,241 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:27:29,426 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:27:29,443 - root - INFO - LLM loaded successfully
+2025-08-21 16:27:29,444 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:27:42,331 - root - INFO - Using device: cuda
+2025-08-21 16:27:42,336 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:27:47,284 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:27:47,288 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:27:52,124 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:27:56,521 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:27:56,538 - root - INFO - LLM loaded successfully
+2025-08-21 16:27:56,538 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:28:09,192 - root - INFO - Using device: cuda
+2025-08-21 16:28:09,198 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:28:14,207 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:28:14,210 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:28:18,768 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:28:24,029 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:28:24,047 - root - INFO - LLM loaded successfully
+2025-08-21 16:28:24,047 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:31:16,352 - root - INFO - Using device: cuda
+2025-08-21 16:31:16,357 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:31:21,692 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:31:21,695 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:31:25,984 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:31:30,788 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:31:30,802 - root - INFO - LLM loaded successfully
+2025-08-21 16:31:30,802 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:35:21,411 - root - INFO - Using device: cuda
+2025-08-21 16:35:21,420 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:35:27,129 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:35:27,132 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:35:31,831 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:35:36,181 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:35:36,197 - root - INFO - LLM loaded successfully
+2025-08-21 16:35:36,197 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:35:48,065 - root - INFO - Using device: cuda
+2025-08-21 16:35:48,071 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:35:53,434 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:35:53,437 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:35:58,959 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:36:04,192 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:36:04,207 - root - INFO - LLM loaded successfully
+2025-08-21 16:36:04,208 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:36:16,404 - root - INFO - Using device: cuda
+2025-08-21 16:36:16,409 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:36:21,336 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:36:21,339 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:36:25,553 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:36:30,041 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:36:30,061 - root - INFO - LLM loaded successfully
+2025-08-21 16:36:30,062 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:36:43,592 - root - INFO - Using device: cuda
+2025-08-21 16:36:43,597 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:36:48,973 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:36:48,976 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:36:53,648 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:36:57,757 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:36:57,772 - root - INFO - LLM loaded successfully
+2025-08-21 16:36:57,773 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:39:41,861 - root - INFO - Using device: cuda
+2025-08-21 16:39:41,866 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:39:47,845 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:39:47,849 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:39:52,562 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:39:57,098 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:39:57,121 - root - INFO - LLM loaded successfully
+2025-08-21 16:39:57,121 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:40:08,196 - root - INFO - Using device: cuda
+2025-08-21 16:40:08,201 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:40:13,884 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:40:13,887 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:40:18,489 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:40:23,209 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:40:23,224 - root - INFO - LLM loaded successfully
+2025-08-21 16:40:23,225 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:42:11,178 - root - INFO - Using device: cuda
+2025-08-21 16:42:11,184 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:42:16,705 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:42:16,708 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:42:20,832 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:42:25,516 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:42:25,533 - root - INFO - LLM loaded successfully
+2025-08-21 16:42:25,533 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:42:36,975 - root - INFO - Using device: cuda
+2025-08-21 16:42:36,981 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:42:42,103 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:42:42,107 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:42:46,834 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:42:50,922 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:42:50,939 - root - INFO - LLM loaded successfully
+2025-08-21 16:42:50,939 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:43:10,943 - root - INFO - Using device: cuda
+2025-08-21 16:43:10,949 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:43:15,850 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:43:15,852 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:43:20,042 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:43:23,923 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:43:23,945 - root - INFO - LLM loaded successfully
+2025-08-21 16:43:23,945 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:44:08,102 - root - INFO - Using device: cuda
+2025-08-21 16:44:08,107 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:44:13,287 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:44:13,289 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:44:17,946 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:44:22,232 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:44:22,248 - root - INFO - LLM loaded successfully
+2025-08-21 16:44:22,249 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:44:42,568 - root - INFO - Using device: cuda
+2025-08-21 16:44:42,574 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:44:47,958 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:44:47,960 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:44:52,468 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:44:56,752 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:44:56,768 - root - INFO - LLM loaded successfully
+2025-08-21 16:44:56,769 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:45:06,120 - root - INFO - Using device: cuda
+2025-08-21 16:45:06,126 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:45:11,750 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:45:11,753 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:45:17,000 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:45:21,190 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:45:21,210 - root - INFO - LLM loaded successfully
+2025-08-21 16:45:21,210 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:46:10,486 - root - INFO - Using device: cuda
+2025-08-21 16:46:10,492 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:46:16,079 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:46:16,081 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:46:21,725 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:46:26,988 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:46:27,003 - root - INFO - LLM loaded successfully
+2025-08-21 16:46:27,003 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:46:39,038 - root - INFO - Using device: cuda
+2025-08-21 16:46:39,044 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:46:44,454 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:46:44,457 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:46:48,829 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:46:52,967 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:46:52,981 - root - INFO - LLM loaded successfully
+2025-08-21 16:46:52,981 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:47:04,903 - root - INFO - Using device: cuda
+2025-08-21 16:47:04,909 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:47:10,606 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:47:10,609 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:47:16,134 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:47:20,799 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:47:20,815 - root - INFO - LLM loaded successfully
+2025-08-21 16:47:20,815 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:47:33,066 - root - INFO - Using device: cuda
+2025-08-21 16:47:33,071 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:47:38,164 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:47:38,167 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:47:43,835 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:47:47,999 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:47:48,016 - root - INFO - LLM loaded successfully
+2025-08-21 16:47:48,016 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:48:00,956 - root - INFO - Using device: cuda
+2025-08-21 16:48:00,962 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:48:06,339 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:48:06,342 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:48:11,260 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:48:15,915 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:48:15,933 - root - INFO - LLM loaded successfully
+2025-08-21 16:48:15,933 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:48:29,230 - root - INFO - Using device: cuda
+2025-08-21 16:48:29,237 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:48:34,885 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:48:34,888 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:48:39,384 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:48:43,518 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:48:43,533 - root - INFO - LLM loaded successfully
+2025-08-21 16:48:43,534 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:48:54,841 - root - INFO - Using device: cuda
+2025-08-21 16:48:54,847 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:49:00,099 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:49:00,102 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:49:05,368 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:49:09,549 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:49:09,565 - root - INFO - LLM loaded successfully
+2025-08-21 16:49:09,565 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:49:21,094 - root - INFO - Using device: cuda
+2025-08-21 16:49:21,100 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:49:26,669 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:49:26,672 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:49:31,080 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:49:35,672 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:49:35,687 - root - INFO - LLM loaded successfully
+2025-08-21 16:49:35,688 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:54:09,694 - root - INFO - Using device: cuda
+2025-08-21 16:54:09,700 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:54:15,520 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:54:15,523 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:54:20,744 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:54:25,247 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:54:25,263 - root - INFO - LLM loaded successfully
+2025-08-21 16:54:25,263 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:54:37,062 - root - INFO - Using device: cuda
+2025-08-21 16:54:37,068 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:54:42,636 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:54:42,639 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:54:47,509 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:54:52,076 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:54:52,092 - root - INFO - LLM loaded successfully
+2025-08-21 16:54:52,093 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:55:03,812 - root - INFO - Using device: cuda
+2025-08-21 16:55:03,819 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:55:09,454 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:55:09,457 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:55:14,698 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:55:19,242 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:55:19,259 - root - INFO - LLM loaded successfully
+2025-08-21 16:55:19,259 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:55:31,811 - root - INFO - Using device: cuda
+2025-08-21 16:55:31,817 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:55:37,808 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:55:37,811 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:55:42,622 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:55:47,007 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:55:47,022 - root - INFO - LLM loaded successfully
+2025-08-21 16:55:47,023 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:55:59,480 - root - INFO - Using device: cuda
+2025-08-21 16:55:59,486 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:56:04,645 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:56:04,648 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:56:09,556 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:56:13,970 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:56:14,233 - root - INFO - LLM loaded successfully
+2025-08-21 16:56:14,233 - root - INFO - Pytesseract OCR is available.
+2025-08-21 16:56:26,019 - root - INFO - Using device: cuda
+2025-08-21 16:56:26,025 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 16:56:31,417 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 16:56:31,420 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 16:56:35,737 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 16:56:40,435 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 16:56:40,450 - root - INFO - LLM loaded successfully
+2025-08-21 16:56:40,450 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:02:18,796 - root - INFO - Using device: cuda
+2025-08-21 17:02:18,887 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:02:24,610 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:02:24,613 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:02:29,222 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:02:33,710 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:02:33,732 - root - INFO - LLM loaded successfully
+2025-08-21 17:02:33,732 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:02:46,816 - root - INFO - Using device: cuda
+2025-08-21 17:02:46,822 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:02:52,012 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:02:52,015 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:02:56,649 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:03:00,870 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:03:00,886 - root - INFO - LLM loaded successfully
+2025-08-21 17:03:00,887 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:03:13,084 - root - INFO - Using device: cuda
+2025-08-21 17:03:13,090 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:03:18,354 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:03:18,357 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:03:22,838 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:03:27,070 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:03:27,093 - root - INFO - LLM loaded successfully
+2025-08-21 17:03:27,093 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:03:39,516 - root - INFO - Using device: cuda
+2025-08-21 17:03:39,522 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:03:44,751 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:03:44,754 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:03:50,750 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:03:55,066 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:03:55,081 - root - INFO - LLM loaded successfully
+2025-08-21 17:03:55,082 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:04:07,995 - root - INFO - Using device: cuda
+2025-08-21 17:04:08,003 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:04:13,413 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:04:13,416 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:04:18,039 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:04:22,151 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:04:22,170 - root - INFO - LLM loaded successfully
+2025-08-21 17:04:22,171 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:04:33,921 - root - INFO - Using device: cuda
+2025-08-21 17:04:33,927 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:04:39,778 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:04:39,782 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:04:44,713 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:04:48,778 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:04:48,794 - root - INFO - LLM loaded successfully
+2025-08-21 17:04:48,794 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:05:01,407 - root - INFO - Using device: cuda
+2025-08-21 17:05:01,413 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:05:07,801 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:05:07,803 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:06:18,478 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:06:18,652 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D6C9143E20>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: def6264e-f36b-4432-825b-19f015c07eed)')
+2025-08-21 17:06:18,673 - root - INFO - LLM loaded successfully
+2025-08-21 17:06:18,673 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:06:33,763 - root - INFO - Using device: cuda
+2025-08-21 17:06:33,769 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:07:41,145 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020159A90E80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d34616bc-4da8-4756-ac4c-a4ab57949369)')
+2025-08-21 17:07:41,149 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:07:41,228 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020159A3CB80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 93ba3206-e624-468b-9809-51b72c97f2fc)')
+2025-08-21 17:07:41,403 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000201599CB490>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a8700e33-6658-443b-ace2-802928f48a3a)')
+2025-08-21 17:07:41,420 - root - INFO - LLM loaded successfully
+2025-08-21 17:07:41,420 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:07:52,368 - root - INFO - Using device: cuda
+2025-08-21 17:07:52,374 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:07:53,303 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000262E0DD9060>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 2d35612c-3dbf-461d-967b-529cef59e908)')
+2025-08-21 17:07:53,305 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:07:53,379 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000262E0D8D1E0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 0baf20d1-f1db-4249-b495-05e1bbdaac1b)')
+2025-08-21 17:07:53,524 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000262E0D3B640>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 77405c9f-5527-4713-ae19-fedb5ee4c208)')
+2025-08-21 17:07:53,542 - root - INFO - LLM loaded successfully
+2025-08-21 17:07:53,542 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:11:57,356 - root - INFO - Using device: cuda
+2025-08-21 17:11:57,362 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:11:58,365 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000013356780A90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 05f1c80b-b55e-40e9-a122-b0c95bed5f85)')
+2025-08-21 17:11:58,368 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:11:58,451 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000013356720C40>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 990e287f-5008-4c68-a5c8-1bd678118467)')
+2025-08-21 17:11:58,597 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000133566CF100>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 411f4678-1cdc-4fca-b550-36614a0df25c)')
+2025-08-21 17:11:58,615 - root - INFO - LLM loaded successfully
+2025-08-21 17:11:58,615 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:12:10,163 - root - INFO - Using device: cuda
+2025-08-21 17:12:10,169 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:12:22,123 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F41CA79270>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 325821c4-b021-459e-b624-d7b5fa3b4779)')
+2025-08-21 17:12:22,126 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:12:22,200 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F41CA28F70>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 55e64645-b0b1-408f-b565-325c9d3e435b)')
+2025-08-21 17:12:22,355 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F41C9DB820>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 37541328-0a8d-4201-8702-cb34e436c392)')
+2025-08-21 17:12:22,373 - root - INFO - LLM loaded successfully
+2025-08-21 17:12:22,374 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:12:33,695 - root - INFO - Using device: cuda
+2025-08-21 17:12:33,702 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:12:45,758 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021116280E20>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 926d0028-66a1-4282-851f-802cd858f5a3)')
+2025-08-21 17:12:45,761 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:12:45,862 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000211162287F0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ef312fbf-2397-445f-bc61-250c1f8efe80)')
+2025-08-21 17:12:46,060 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000211161EB430>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 47f3f099-acff-451c-86ae-06ebe96c873e)')
+2025-08-21 17:12:46,078 - root - INFO - LLM loaded successfully
+2025-08-21 17:12:46,079 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:13:12,784 - root - INFO - Using device: cuda
+2025-08-21 17:13:12,790 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:13:13,686 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D2F8C1180>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ca84e0c0-d23c-4587-b045-f0b61e94d906)')
+2025-08-21 17:13:13,689 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:13:13,768 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D2F87CE80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 473a7237-3f98-4373-b16c-22543e84bbdb)')
+2025-08-21 17:13:13,923 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020D2F837730>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 43f7a009-39df-4c2b-bbaf-ab6c1c3a88ec)')
+2025-08-21 17:13:13,942 - root - INFO - LLM loaded successfully
+2025-08-21 17:13:13,943 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:13:25,994 - root - INFO - Using device: cuda
+2025-08-21 17:13:26,003 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:13:26,997 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D0FE93CE20>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e5274ca5-3724-4520-92ce-0946ab09948d)')
+2025-08-21 17:13:27,000 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:13:27,401 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D0FE8E87F0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 56c752b3-30ff-4a03-a293-c7bf45cba8f0)')
+2025-08-21 17:13:27,547 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D0FE8AF430>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: daaf6d1b-10e8-4490-a66e-4b01df68f983)')
+2025-08-21 17:13:27,566 - root - INFO - LLM loaded successfully
+2025-08-21 17:13:27,566 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:14:35,230 - root - INFO - Using device: cuda
+2025-08-21 17:14:35,237 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:14:36,232 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028EB1654DC0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c18cf41d-0ce4-4cf1-9d63-c7ab9e11f9ea)')
+2025-08-21 17:14:36,235 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:14:36,315 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028EB1600790>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d3cb13bb-f6f7-4344-8845-1ce6b3bb3fe1)')
+2025-08-21 17:14:36,472 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028EB15BF3D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 2609ceec-dc73-4d26-8fbc-861b301d7fd8)')
+2025-08-21 17:14:36,490 - root - INFO - LLM loaded successfully
+2025-08-21 17:14:36,490 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:14:56,360 - root - INFO - Using device: cuda
+2025-08-21 17:14:56,366 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:14:57,248 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F68BDCCFD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a46f8206-53a6-4419-b7f1-17e46c1f1a7a)')
+2025-08-21 17:14:57,250 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:14:57,324 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F68BD7D180>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 0965c6bc-3b81-4627-8e70-1f655329ab64)')
+2025-08-21 17:14:57,470 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F68BD2B5E0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: faf6a0dc-fd91-441b-921c-8e19083b184d)')
+2025-08-21 17:14:57,486 - root - INFO - LLM loaded successfully
+2025-08-21 17:14:57,486 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:15:08,168 - root - INFO - Using device: cuda
+2025-08-21 17:15:08,174 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:15:20,246 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1AEE58BB0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c74eda35-ded1-4ace-801e-91cd7683c3a2)')
+2025-08-21 17:15:20,248 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:15:20,323 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1AEDFCD60>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b153392d-bbfd-4b9f-8ce1-5555e1279e71)')
+2025-08-21 17:15:20,474 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C1AEDBB220>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e9572e27-5b2c-4687-a72f-6df5b1b1b11e)')
+2025-08-21 17:15:20,492 - root - INFO - LLM loaded successfully
+2025-08-21 17:15:20,493 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:16:20,290 - root - INFO - Using device: cuda
+2025-08-21 17:16:20,297 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:16:21,210 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023966A6CE80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: cd8331ac-b07f-4d2d-8245-c16e3c61185d)')
+2025-08-21 17:16:21,213 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:16:21,288 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000023966A1CB80>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9908b748-8404-4165-9d3d-9774e399f7b8)')
+2025-08-21 17:16:21,439 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002396695F490>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 06bc42d4-f7e2-499d-ae30-249b305b7ed1)')
+2025-08-21 17:16:21,457 - root - INFO - LLM loaded successfully
+2025-08-21 17:16:21,457 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:23:08,571 - root - INFO - Using device: cuda
+2025-08-21 17:23:08,576 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:23:20,543 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C48A1A9000>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 98f8eefd-0d9d-4c2c-af07-ff0b3fdd88e3)')
+2025-08-21 17:23:20,546 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:23:20,618 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C48A15D1B0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4fdf76a1-e455-4de5-acbc-ed853400f201)')
+2025-08-21 17:23:20,771 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C48A10F610>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ba9dd009-057a-4075-8dfe-9a4ff7e2d617)')
+2025-08-21 17:23:20,790 - root - INFO - LLM loaded successfully
+2025-08-21 17:23:20,791 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:23:32,942 - root - INFO - Using device: cuda
+2025-08-21 17:23:32,949 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:23:45,079 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218B2804C40>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 741690bb-ac3b-4988-8021-7f7ebf2bae01)')
+2025-08-21 17:23:45,083 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:23:45,168 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218B27ACDF0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e4034122-01a6-4893-9c36-049de8c5ebc5)')
+2025-08-21 17:23:45,336 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000218B275B2B0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 230cd194-ed37-4bcc-bbd5-fd4c5b6a8a2f)')
+2025-08-21 17:23:45,357 - root - INFO - LLM loaded successfully
+2025-08-21 17:23:45,357 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:25:25,429 - root - INFO - Using device: cuda
+2025-08-21 17:25:25,435 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:25:26,330 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027C1DF81240>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: c3c3d249-90fa-4db3-ab5e-a1407ad79065)')
+2025-08-21 17:25:26,333 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:25:26,409 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027C1DF34F40>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6671aea9-c1c7-4056-ab34-ea7c6ae1d10c)')
+2025-08-21 17:25:26,553 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027C1DEC77F0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 512de778-f624-4614-9fc1-8a3079628fa4)')
+2025-08-21 17:25:26,570 - root - INFO - LLM loaded successfully
+2025-08-21 17:25:26,571 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:25:38,649 - root - INFO - Using device: cuda
+2025-08-21 17:25:38,654 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:25:50,543 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000261DB160E50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 16dcda60-efba-44fa-a951-614871dfd0c3)')
+2025-08-21 17:25:50,547 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:25:50,620 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000261DB100B50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3efc57c7-320d-4fd1-b89a-75c07165d1d3)')
+2025-08-21 17:25:50,768 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000261DB09B460>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 425ab8d0-0a69-4925-a8a0-280670d53540)')
+2025-08-21 17:25:50,785 - root - INFO - LLM loaded successfully
+2025-08-21 17:25:50,785 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:26:02,384 - root - INFO - Using device: cuda
+2025-08-21 17:26:02,390 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:26:14,301 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EE98FE4C10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 086eeb8a-2b3d-40f8-90da-761e8e15fc39)')
+2025-08-21 17:26:14,304 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:26:14,377 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EE98F84DC0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6adfc88b-dd70-4cff-90cf-108893c65017)')
+2025-08-21 17:26:14,524 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EE98F4F280>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e26ed473-25d8-44c8-bfa4-a7fb2ba4832a)')
+2025-08-21 17:26:14,542 - root - INFO - LLM loaded successfully
+2025-08-21 17:26:14,543 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:26:26,025 - root - INFO - Using device: cuda
+2025-08-21 17:26:26,031 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:26:37,994 - root - ERROR - Failed to load fast embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAD2A54CA0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f185af13-4058-4b0b-a95c-a49ff2598073)')
+2025-08-21 17:26:37,997 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:26:38,075 - root - ERROR - Failed to load accurate embeddings model: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-small-en-v1.5/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAD29F8E20>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e335ace6-a287-4c49-b69c-7d0b53a6e2d5)')
+2025-08-21 17:26:38,223 - root - WARNING - Failed to initialize re-ranker: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-reranker-large/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FAD29BF2E0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b41251e0-ec94-4f04-9709-62028bfe2e38)')
+2025-08-21 17:26:38,240 - root - INFO - LLM loaded successfully
+2025-08-21 17:26:38,240 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:30:30,929 - root - INFO - Using device: cuda
+2025-08-21 17:30:30,936 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:30:35,136 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:30:35,139 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:30:39,877 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:30:47,741 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:30:47,820 - root - INFO - LLM loaded successfully
+2025-08-21 17:30:47,820 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:33:00,547 - root - INFO - Using device: cuda
+2025-08-21 17:33:00,554 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:33:08,529 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:33:08,532 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:33:12,668 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:33:16,561 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:33:16,585 - root - INFO - LLM loaded successfully
+2025-08-21 17:33:16,585 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:33:28,189 - root - INFO - Using device: cuda
+2025-08-21 17:33:28,194 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:33:32,684 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:33:32,687 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:33:36,770 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:33:40,574 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:33:40,592 - root - INFO - LLM loaded successfully
+2025-08-21 17:33:40,592 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:33:52,384 - root - INFO - Using device: cuda
+2025-08-21 17:33:52,389 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:33:56,676 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:33:56,679 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:34:00,802 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:34:05,001 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:34:05,020 - root - INFO - LLM loaded successfully
+2025-08-21 17:34:05,020 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:34:17,155 - root - INFO - Using device: cuda
+2025-08-21 17:34:17,161 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:34:24,435 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:34:24,438 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:34:28,097 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:34:31,843 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:34:31,858 - root - INFO - LLM loaded successfully
+2025-08-21 17:34:31,858 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:38:42,767 - root - INFO - Using device: cuda
+2025-08-21 17:38:42,773 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:38:50,491 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:38:50,493 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:38:54,298 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:38:57,988 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:38:58,006 - root - INFO - LLM loaded successfully
+2025-08-21 17:38:58,006 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:39:51,458 - root - INFO - Using device: cuda
+2025-08-21 17:39:51,463 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:39:55,778 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:39:55,781 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:39:59,206 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:40:02,897 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:40:02,912 - root - INFO - LLM loaded successfully
+2025-08-21 17:40:02,912 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:40:15,158 - root - INFO - Using device: cuda
+2025-08-21 17:40:15,164 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:40:19,601 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:40:19,604 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:40:23,164 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:40:27,354 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:40:27,369 - root - INFO - LLM loaded successfully
+2025-08-21 17:40:27,370 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:40:39,317 - root - INFO - Using device: cuda
+2025-08-21 17:40:39,323 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:40:43,567 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:40:43,571 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:40:47,164 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:40:51,021 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:40:51,036 - root - INFO - LLM loaded successfully
+2025-08-21 17:40:51,036 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:41:02,944 - root - INFO - Using device: cuda
+2025-08-21 17:41:02,950 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:41:07,276 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:41:07,279 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:41:10,847 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:41:14,501 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:41:14,516 - root - INFO - LLM loaded successfully
+2025-08-21 17:41:14,516 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:41:27,440 - root - INFO - Using device: cuda
+2025-08-21 17:41:27,447 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:41:34,691 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:41:34,694 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:41:38,191 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:41:42,194 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:41:42,213 - root - INFO - LLM loaded successfully
+2025-08-21 17:41:42,213 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:41:54,265 - root - INFO - Using device: cuda
+2025-08-21 17:41:54,271 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:41:58,584 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:41:58,586 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:42:02,593 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:42:06,602 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:42:06,618 - root - INFO - LLM loaded successfully
+2025-08-21 17:42:06,618 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:42:19,588 - root - INFO - Using device: cuda
+2025-08-21 17:42:19,594 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:42:26,843 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:42:26,845 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:42:30,862 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:42:34,580 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:42:34,595 - root - INFO - LLM loaded successfully
+2025-08-21 17:42:34,596 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:42:46,765 - root - INFO - Using device: cuda
+2025-08-21 17:42:46,771 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:42:51,019 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:42:51,021 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:42:54,791 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:42:58,556 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:42:58,571 - root - INFO - LLM loaded successfully
+2025-08-21 17:42:58,572 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:43:10,718 - root - INFO - Using device: cuda
+2025-08-21 17:43:10,724 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:43:15,566 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:43:15,569 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:43:18,979 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:43:22,862 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:43:22,878 - root - INFO - LLM loaded successfully
+2025-08-21 17:43:22,879 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:43:35,664 - root - INFO - Using device: cuda
+2025-08-21 17:43:35,670 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:43:43,538 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:43:43,542 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:43:47,361 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:43:51,079 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:43:51,101 - root - INFO - LLM loaded successfully
+2025-08-21 17:43:51,101 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:44:02,518 - root - INFO - Using device: cuda
+2025-08-21 17:44:02,524 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:44:10,742 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:44:10,745 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:44:14,395 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:44:18,140 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:44:18,155 - root - INFO - LLM loaded successfully
+2025-08-21 17:44:18,155 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:44:29,903 - root - INFO - Using device: cuda
+2025-08-21 17:44:29,909 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:44:37,228 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:44:37,231 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:44:40,621 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:44:44,332 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:44:44,351 - root - INFO - LLM loaded successfully
+2025-08-21 17:44:44,352 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:44:56,257 - root - INFO - Using device: cuda
+2025-08-21 17:44:56,263 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:45:04,250 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:45:04,253 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:45:07,459 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:45:11,107 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:45:11,124 - root - INFO - LLM loaded successfully
+2025-08-21 17:45:11,125 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:45:22,609 - root - INFO - Using device: cuda
+2025-08-21 17:45:22,616 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:45:26,726 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:45:26,729 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:45:29,985 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:45:33,684 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:45:33,701 - root - INFO - LLM loaded successfully
+2025-08-21 17:45:33,701 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:45:45,589 - root - INFO - Using device: cuda
+2025-08-21 17:45:45,596 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:45:49,709 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:45:49,713 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:45:53,977 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:45:58,429 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:45:58,447 - root - INFO - LLM loaded successfully
+2025-08-21 17:45:58,447 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:46:12,391 - root - INFO - Using device: cuda
+2025-08-21 17:46:12,397 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:46:20,064 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:46:20,067 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:46:23,734 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:46:27,611 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:46:27,627 - root - INFO - LLM loaded successfully
+2025-08-21 17:46:27,627 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:46:40,256 - root - INFO - Using device: cuda
+2025-08-21 17:46:40,263 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:46:45,094 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:46:45,098 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:46:48,504 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:46:52,214 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:46:52,230 - root - INFO - LLM loaded successfully
+2025-08-21 17:46:52,230 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:47:04,959 - root - INFO - Using device: cuda
+2025-08-21 17:47:04,965 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:47:09,691 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:47:09,694 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:47:13,142 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:47:16,876 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:47:16,892 - root - INFO - LLM loaded successfully
+2025-08-21 17:47:16,893 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:48:42,701 - root - INFO - Using device: cuda
+2025-08-21 17:48:42,708 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:48:49,764 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:48:49,767 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:48:52,993 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:48:56,747 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:48:56,766 - root - INFO - LLM loaded successfully
+2025-08-21 17:48:56,766 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:49:08,340 - root - INFO - Using device: cuda
+2025-08-21 17:49:08,346 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:49:12,427 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:49:12,430 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:49:16,203 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:49:19,802 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:49:19,818 - root - INFO - LLM loaded successfully
+2025-08-21 17:49:19,819 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:49:31,878 - root - INFO - Using device: cuda
+2025-08-21 17:49:31,885 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:49:35,940 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:49:35,944 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:49:41,132 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:49:45,035 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:49:45,052 - root - INFO - LLM loaded successfully
+2025-08-21 17:49:45,052 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:49:56,249 - root - INFO - Using device: cuda
+2025-08-21 17:49:56,254 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:50:00,225 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:50:00,229 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:50:03,614 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:50:07,142 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:50:07,157 - root - INFO - LLM loaded successfully
+2025-08-21 17:50:07,157 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:50:18,082 - root - INFO - Using device: cuda
+2025-08-21 17:50:18,087 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 17:50:25,508 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 17:50:25,512 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 17:50:28,742 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 17:50:32,331 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 17:50:32,351 - root - INFO - LLM loaded successfully
+2025-08-21 17:50:32,351 - root - INFO - Pytesseract OCR is available.
+2025-08-21 17:50:47,552 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - INFO - Universal processing: 1 questions
+2025-08-21 17:50:50,964 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:50:51,024 - root - INFO - Extracted text from 4 PDF pages using sorted blocks method.
+2025-08-21 17:50:51,326 - root - INFO - Detected document language: English (en)
+2025-08-21 17:50:51,326 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - INFO - Processed pdf document: 4556 chars
+2025-08-21 17:50:51,327 - root - INFO - Mission detection - Primary: 4, Secondary: 3, URLs: 3, Is Mission: True
+2025-08-21 17:50:51,335 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - INFO - Executing mission agent to find flight number...
+2025-08-21 17:50:55,533 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - INFO - Raw mission result: ba37e9
+2025-08-21 17:50:55,534 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - WARNING - Could not extract flight number, returning raw result
+2025-08-21 17:50:55,535 - f0a05f89-39b3-4ec6-866b-3d0e17ce1cff - INFO - Completed in 7.99 seconds
+2025-08-21 17:52:29,812 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Universal processing: 12 questions
+2025-08-21 17:52:31,204 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:52:31,898 - root - INFO - Extracted text from 594 PDF pages using sorted blocks method.
+2025-08-21 17:52:32,052 - root - INFO - Detected document language: English (en)
+2025-08-21 17:52:32,053 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Processed pdf document: 1757899 chars
+2025-08-21 17:52:32,073 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 17:52:32,834 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Created 906 adaptive chunks
+2025-08-21 17:52:42,318 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-08-21 17:52:42,318 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-21 17:52:42,319 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-21 17:52:47,971 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-21 17:52:47,979 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-21 17:52:48,000 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q1: procedural query, complexity: low
+2025-08-21 17:52:51,252 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q1: Completed successfully
+2025-08-21 17:52:51,252 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q2: general_inquiry query, complexity: medium
+2025-08-21 17:52:54,667 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q2: Completed successfully
+2025-08-21 17:52:54,668 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q3: procedural query, complexity: medium
+2025-08-21 17:52:57,907 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q3: Completed successfully
+2025-08-21 17:52:57,908 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q4: procedural query, complexity: medium
+2025-08-21 17:53:00,853 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q4: Completed successfully
+2025-08-21 17:53:00,853 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 17:53:03,090 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q5: Completed successfully
+2025-08-21 17:53:03,090 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q6: procedural query, complexity: low
+2025-08-21 17:53:05,225 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q6: Completed successfully
+2025-08-21 17:53:05,225 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q7: definition_factual query, complexity: medium
+2025-08-21 17:53:08,302 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q7: Completed successfully
+2025-08-21 17:53:08,302 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q8: procedural query, complexity: low
+2025-08-21 17:53:10,572 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q8: Completed successfully
+2025-08-21 17:53:10,573 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q9: procedural query, complexity: low
+2025-08-21 17:53:13,285 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q9: Completed successfully
+2025-08-21 17:53:13,286 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q10: general_inquiry query, complexity: medium
+2025-08-21 17:53:16,858 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q10: Completed successfully
+2025-08-21 17:53:16,858 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q11: entity_identification query, complexity: low
+2025-08-21 17:53:18,929 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q11: Completed successfully
+2025-08-21 17:53:18,929 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q12: yes_no_verification query, complexity: low
+2025-08-21 17:53:20,787 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Q12: Completed successfully
+2025-08-21 17:53:20,793 - 0e002e36-8520-463a-8cc2-01d5fd8ee286 - INFO - Completed in 50.99 seconds
+2025-08-21 17:53:21,696 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Universal processing: 5 questions
+2025-08-21 17:53:21,869 - root - INFO - Detected content type: image/jpeg
+2025-08-21 17:53:25,345 - root - INFO - Successfully extracted text from image with Pytesseract: 48 characters
+2025-08-21 17:53:25,353 - root - INFO - Detected document language: English (en)
+2025-08-21 17:53:25,353 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Processed jpeg document: 162 chars
+2025-08-21 17:53:25,353 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:53:25,354 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Created 1 adaptive chunks
+2025-08-21 17:53:25,413 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q1: definition_factual query, complexity: low
+2025-08-21 17:53:26,235 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q1: Completed successfully
+2025-08-21 17:53:26,604 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q2: definition_factual query, complexity: low
+2025-08-21 17:53:27,439 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q2: Completed successfully
+2025-08-21 17:53:27,440 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:53:28,865 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q3: Completed successfully
+2025-08-21 17:53:28,865 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q4: definition_factual query, complexity: low
+2025-08-21 17:53:29,626 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q4: Completed successfully
+2025-08-21 17:53:29,626 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 17:53:30,909 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Q5: Completed successfully
+2025-08-21 17:53:30,910 - 60637dc9-0883-4727-afc2-5fd01116b753 - INFO - Completed in 9.22 seconds
+2025-08-21 17:53:30,981 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Universal processing: 20 questions
+2025-08-21 17:53:31,525 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:53:32,033 - root - INFO - Extracted text from 402 PDF pages using sorted blocks method.
+2025-08-21 17:53:32,130 - root - INFO - Detected document language: English (en)
+2025-08-21 17:53:32,131 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Processed pdf document: 874331 chars
+2025-08-21 17:53:32,140 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 17:53:32,563 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Created 454 adaptive chunks
+2025-08-21 17:53:37,918 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q1: definition_factual query, complexity: low
+2025-08-21 17:53:39,642 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q1: Completed successfully
+2025-08-21 17:53:39,643 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 17:53:42,137 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q2: Completed successfully
+2025-08-21 17:53:42,137 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:53:44,064 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q3: Completed successfully
+2025-08-21 17:53:44,065 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q4: definition_factual query, complexity: low
+2025-08-21 17:53:46,352 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q4: Completed successfully
+2025-08-21 17:53:46,352 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q5: general_inquiry query, complexity: medium
+2025-08-21 17:53:49,983 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q5: Completed successfully
+2025-08-21 17:53:49,984 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q6: general_inquiry query, complexity: medium
+2025-08-21 17:53:52,767 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q6: Completed successfully
+2025-08-21 17:53:52,767 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q7: definition_factual query, complexity: low
+2025-08-21 17:53:54,754 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q7: Completed successfully
+2025-08-21 17:53:54,755 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q8: general_inquiry query, complexity: medium
+2025-08-21 17:53:57,278 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q8: Completed successfully
+2025-08-21 17:53:57,278 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q9: general_inquiry query, complexity: medium
+2025-08-21 17:53:59,911 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q9: Completed successfully
+2025-08-21 17:53:59,912 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q10: definition_factual query, complexity: medium
+2025-08-21 17:54:02,196 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q10: Completed successfully
+2025-08-21 17:54:02,196 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q11: general_inquiry query, complexity: low
+2025-08-21 17:54:03,905 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q11: Completed successfully
+2025-08-21 17:54:03,906 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q12: general_inquiry query, complexity: low
+2025-08-21 17:54:05,969 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q12: Completed successfully
+2025-08-21 17:54:05,969 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q13: general_inquiry query, complexity: low
+2025-08-21 17:54:07,913 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q13: Completed successfully
+2025-08-21 17:54:07,913 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q14: general_inquiry query, complexity: low
+2025-08-21 17:54:10,134 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q14: Completed successfully
+2025-08-21 17:54:10,134 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q15: general_inquiry query, complexity: low
+2025-08-21 17:54:12,181 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q15: Completed successfully
+2025-08-21 17:54:12,181 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q16: general_inquiry query, complexity: low
+2025-08-21 17:54:14,283 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q16: Completed successfully
+2025-08-21 17:54:14,284 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q17: general_inquiry query, complexity: low
+2025-08-21 17:54:16,365 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q17: Completed successfully
+2025-08-21 17:54:16,366 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q18: general_inquiry query, complexity: low
+2025-08-21 17:54:18,254 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q18: Completed successfully
+2025-08-21 17:54:18,254 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q19: general_inquiry query, complexity: low
+2025-08-21 17:54:20,208 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q19: Completed successfully
+2025-08-21 17:54:20,209 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q20: general_inquiry query, complexity: medium
+2025-08-21 17:54:23,094 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Q20: Completed successfully
+2025-08-21 17:54:23,095 - f934b24f-634a-4c6a-8763-16c35fede894 - INFO - Completed in 52.12 seconds
+2025-08-21 17:54:23,354 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Universal processing: 7 questions
+2025-08-21 17:54:23,733 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2025-08-21 17:54:23,749 - root - INFO - Extracted text from DOCX: 4 elements
+2025-08-21 17:54:23,761 - root - INFO - Detected document language: English (en)
+2025-08-21 17:54:23,762 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Processed docx document: 903 chars
+2025-08-21 17:54:23,762 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 17:54:23,763 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Created 1 adaptive chunks
+2025-08-21 17:54:23,780 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q1: definition_factual query, complexity: low
+2025-08-21 17:54:24,459 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q1: Completed successfully
+2025-08-21 17:54:24,460 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q2: locational query, complexity: low
+2025-08-21 17:54:30,903 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q2: Completed successfully
+2025-08-21 17:54:30,903 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:54:31,937 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q3: Completed successfully
+2025-08-21 17:54:31,939 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q4: procedural query, complexity: low
+2025-08-21 17:54:32,914 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q4: Completed successfully
+2025-08-21 17:54:32,915 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q5: procedural query, complexity: low
+2025-08-21 17:54:34,084 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q5: Completed successfully
+2025-08-21 17:54:34,147 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q6: entity_identification query, complexity: low
+2025-08-21 17:54:34,877 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q6: Completed successfully
+2025-08-21 17:54:34,877 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q7: definition_factual query, complexity: low
+2025-08-21 17:54:36,116 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Q7: Completed successfully
+2025-08-21 17:54:36,116 - 9a63fbd4-a010-440f-931c-918283455f5a - INFO - Completed in 12.77 seconds
+2025-08-21 17:54:36,124 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Universal processing: 5 questions
+2025-08-21 17:54:36,679 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:54:36,765 - root - INFO - Extracted text from 16 PDF pages using sorted blocks method.
+2025-08-21 17:54:36,802 - root - INFO - Detected document language: English (en)
+2025-08-21 17:54:36,802 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Processed pdf document: 78104 chars
+2025-08-21 17:54:36,803 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:54:36,846 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Created 64 adaptive chunks
+2025-08-21 17:54:37,853 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q1: temporal query, complexity: low
+2025-08-21 17:54:40,054 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q1: Completed successfully
+2025-08-21 17:54:40,054 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 17:54:42,090 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q2: Completed successfully
+2025-08-21 17:54:42,090 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q3: general_inquiry query, complexity: medium
+2025-08-21 17:54:44,580 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q3: Completed successfully
+2025-08-21 17:54:44,580 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q4: general_inquiry query, complexity: low
+2025-08-21 17:54:46,830 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q4: Completed successfully
+2025-08-21 17:54:46,830 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q5: general_inquiry query, complexity: high
+2025-08-21 17:54:49,782 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Q5: Completed successfully
+2025-08-21 17:54:49,783 - 4b9d7d30-6c2a-4832-8592-65e641f53dd1 - INFO - Completed in 13.67 seconds
+2025-08-21 17:54:49,842 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Universal processing: 5 questions
+2025-08-21 17:54:50,201 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+2025-08-21 17:54:50,223 - root - INFO - Processing 17 slides from PPTX
+2025-08-21 17:54:58,451 - root - ERROR - Advanced PPTX extraction failed: invalid literal for int() with base 10: '==='
+Traceback (most recent call last):
+  File "D:\0_placements\genai\bajaj_hack\modular_2\pptx_processor.py", line 61, in process_pptx
+    resolved_content = AdvancedPPTXProcessor._resolve_cross_references(
+  File "D:\0_placements\genai\bajaj_hack\modular_2\pptx_processor.py", line 557, in _resolve_cross_references
+    slide_num = int(slide_content[0].split()[-1]) if slide_content and "SLIDE" in slide_content[0] else 0
+ValueError: invalid literal for int() with base 10: '==='
+2025-08-21 17:54:58,635 - root - INFO - Detected document language: English (en)
+2025-08-21 17:54:58,635 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Processed pptx document: 6857 chars
+2025-08-21 17:54:58,636 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:54:58,641 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Created 8 adaptive chunks
+2025-08-21 17:54:58,878 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q1: definition_factual query, complexity: medium
+2025-08-21 17:55:00,667 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q1: Completed successfully
+2025-08-21 17:55:00,667 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q2: definition_factual query, complexity: low
+2025-08-21 17:55:02,224 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q2: Completed successfully
+2025-08-21 17:55:02,225 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:55:03,679 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q3: Completed successfully
+2025-08-21 17:55:03,679 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q4: definition_factual query, complexity: low
+2025-08-21 17:55:05,432 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q4: Completed successfully
+2025-08-21 17:55:05,432 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 17:55:07,459 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Q5: Completed successfully
+2025-08-21 17:55:07,460 - a87ccec3-9b67-4adc-99be-7617af66580b - INFO - Completed in 17.62 seconds
+2025-08-21 17:55:07,468 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Universal processing: 3 questions
+2025-08-21 17:55:07,792 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:55:07,868 - root - INFO - Extracted text from 33 PDF pages using sorted blocks method.
+2025-08-21 17:55:07,908 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:07,909 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Processed pdf document: 100085 chars
+2025-08-21 17:55:07,910 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:55:07,959 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Created 55 adaptive chunks
+2025-08-21 17:55:08,714 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q1: yes_no_verification query, complexity: low
+2025-08-21 17:55:10,775 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q1: Completed successfully
+2025-08-21 17:55:10,776 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q2: general_inquiry query, complexity: medium
+2025-08-21 17:55:13,960 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q2: Completed successfully
+2025-08-21 17:55:13,960 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q3: yes_no_verification query, complexity: low
+2025-08-21 17:55:15,864 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Q3: Completed successfully
+2025-08-21 17:55:15,864 - c6806a7f-d30e-4659-87c8-4f7cfb111196 - INFO - Completed in 8.41 seconds
+2025-08-21 17:55:15,871 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Universal processing: 3 questions
+2025-08-21 17:55:15,948 - root - INFO - Detected content type: image/png
+2025-08-21 17:55:16,487 - root - INFO - Successfully extracted text from image with Pytesseract: 711 characters
+2025-08-21 17:55:16,501 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:16,502 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Processed png document: 825 chars
+2025-08-21 17:55:16,502 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:55:16,503 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Created 1 adaptive chunks
+2025-08-21 17:55:16,513 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q1: definition_factual query, complexity: medium
+2025-08-21 17:55:17,465 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q1: Completed successfully
+2025-08-21 17:55:17,466 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q2: definition_factual query, complexity: low
+2025-08-21 17:55:18,558 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q2: Completed successfully
+2025-08-21 17:55:18,558 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q3: general_inquiry query, complexity: high
+2025-08-21 17:55:19,712 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Q3: Completed successfully
+2025-08-21 17:55:19,712 - a4360637-0310-48f4-a1ee-b63dcdb7eec3 - INFO - Completed in 3.84 seconds
+2025-08-21 17:55:19,719 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Universal processing: 3 questions
+2025-08-21 17:55:19,841 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2025-08-21 17:55:19,861 - root - INFO - Processing 1 sheets from XLSX
+2025-08-21 17:55:19,916 - root - WARNING - Error processing table region 1 in sheet 'Sheet1': Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-08-21 17:55:19,916 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:19,917 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Processed xlsx document: 49 chars
+2025-08-21 17:55:19,917 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:55:19,917 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Created 1 adaptive chunks
+2025-08-21 17:55:19,928 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q1: definition_factual query, complexity: low
+2025-08-21 17:55:20,579 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q1: Completed successfully
+2025-08-21 17:55:20,580 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q2: definition_factual query, complexity: low
+2025-08-21 17:55:22,064 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q2: Completed successfully
+2025-08-21 17:55:22,064 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:55:22,814 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Q3: Completed successfully
+2025-08-21 17:55:22,814 - b4b0999e-6e38-49f1-9ed2-159e2a8cda77 - INFO - Completed in 3.11 seconds
+2025-08-21 17:55:22,821 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Universal processing: 5 questions
+2025-08-21 17:55:22,947 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2025-08-21 17:55:22,954 - root - INFO - Processing 1 sheets from XLSX
+2025-08-21 17:55:22,970 - root - WARNING - Error processing table region 1 in sheet 'Sheet1': Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-08-21 17:55:22,971 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:22,971 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Processed xlsx document: 49 chars
+2025-08-21 17:55:22,971 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 17:55:22,971 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Created 1 adaptive chunks
+2025-08-21 17:55:22,985 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q1: entity_identification query, complexity: low
+2025-08-21 17:55:24,032 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q1: Completed successfully
+2025-08-21 17:55:24,032 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 17:55:25,019 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q2: Completed successfully
+2025-08-21 17:55:25,019 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q3: procedural query, complexity: low
+2025-08-21 17:55:26,068 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q3: Completed successfully
+2025-08-21 17:55:26,068 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q4: general_inquiry query, complexity: low
+2025-08-21 17:55:27,091 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q4: Completed successfully
+2025-08-21 17:55:27,092 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 17:55:28,137 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Q5: Completed successfully
+2025-08-21 17:55:28,138 - b19cfee0-b7e8-4c29-814d-1bf60b0e8146 - INFO - Completed in 5.31 seconds
+2025-08-21 17:55:28,144 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Universal processing: 5 questions
+2025-08-21 17:55:28,213 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2025-08-21 17:55:28,221 - root - INFO - Extracted text from DOCX: 4 elements
+2025-08-21 17:55:28,261 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:28,261 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Processed docx document: 77010 chars
+2025-08-21 17:55:28,262 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 17:55:28,302 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Created 43 adaptive chunks
+2025-08-21 17:55:29,004 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q1: definition_factual query, complexity: medium
+2025-08-21 17:55:32,061 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q1: Completed successfully
+2025-08-21 17:55:32,062 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q2: definition_factual query, complexity: low
+2025-08-21 17:55:35,351 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q2: Completed successfully
+2025-08-21 17:55:35,351 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q3: definition_factual query, complexity: low
+2025-08-21 17:55:37,949 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q3: Completed successfully
+2025-08-21 17:55:37,949 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q4: definition_factual query, complexity: low
+2025-08-21 17:55:40,992 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q4: Completed successfully
+2025-08-21 17:55:40,993 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 17:55:44,285 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Q5: Completed successfully
+2025-08-21 17:55:44,286 - cefb1bc8-b7fe-4df4-9fe7-d33557b920ff - INFO - Completed in 16.14 seconds
+2025-08-21 17:55:44,293 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Universal processing: 5 questions
+2025-08-21 17:55:45,643 - root - INFO - Detected content type: application/pdf
+2025-08-21 17:55:45,902 - root - INFO - Extracted text from 84 PDF pages using sorted blocks method.
+2025-08-21 17:55:45,950 - root - INFO - Detected document language: English (en)
+2025-08-21 17:55:45,950 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Processed pdf document: 119083 chars
+2025-08-21 17:55:45,952 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 17:55:46,003 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Created 62 adaptive chunks
+2025-08-21 17:55:46,991 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q1: definition_factual query, complexity: low
+2025-08-21 17:55:48,534 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._achat_with_retry.<locals>._achat_with_retry in 2.0 seconds as it raised InternalServerError: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting.
+2025-08-21 17:55:51,509 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q1: Completed successfully
+2025-08-21 17:55:51,509 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q2: yes_no_verification query, complexity: low
+2025-08-21 17:55:53,604 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q2: Completed successfully
+2025-08-21 17:55:53,604 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q3: yes_no_verification query, complexity: low
+2025-08-21 17:55:55,608 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q3: Completed successfully
+2025-08-21 17:55:55,608 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q4: yes_no_verification query, complexity: low
+2025-08-21 17:55:57,322 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q4: Completed successfully
+2025-08-21 17:55:57,323 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q5: general_inquiry query, complexity: low
+2025-08-21 17:55:59,901 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Q5: Completed successfully
+2025-08-21 17:55:59,903 - 15f3c8aa-ef31-4fba-9a4d-28dfe71cadc2 - INFO - Completed in 15.61 seconds
+2025-08-21 18:17:46,051 - root - INFO - Using device: cuda
+2025-08-21 18:17:46,169 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 18:17:51,545 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 18:17:51,548 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 18:17:55,769 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 18:18:04,065 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 18:18:04,195 - root - INFO - LLM loaded successfully
+2025-08-21 18:18:04,196 - root - INFO - Pytesseract OCR is available.
+2025-08-21 18:18:25,699 - b1158a6f-c4b4-4dd4-8167-f403bc2d4938 - INFO - Universal processing: 5 questions
+2025-08-21 18:18:26,427 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2025-08-21 18:18:26,442 - root - INFO - Extracted text from DOCX: 4 elements
+2025-08-21 18:18:27,522 - root - INFO - Detected document language: English (en)
+2025-08-21 18:18:27,522 - b1158a6f-c4b4-4dd4-8167-f403bc2d4938 - INFO - Processed docx document: 77010 chars
+2025-08-21 18:18:27,523 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 18:18:27,569 - b1158a6f-c4b4-4dd4-8167-f403bc2d4938 - INFO - Created 43 adaptive chunks
+2025-08-21 18:21:24,250 - root - INFO - Using device: cuda
+2025-08-21 18:21:24,519 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-21 18:21:32,536 - root - INFO - Fast embeddings model loaded successfully
+2025-08-21 18:21:32,538 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-08-21 18:21:37,076 - root - INFO - Accurate embeddings model loaded successfully
+2025-08-21 18:21:42,021 - root - INFO - Re-ranking model loaded successfully
+2025-08-21 18:21:42,044 - root - INFO - LLM loaded successfully
+2025-08-21 18:21:42,044 - root - INFO - Pytesseract OCR is available.
+2025-08-21 18:22:11,604 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Universal processing: 5 questions
+2025-08-21 18:22:12,110 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2025-08-21 18:22:12,126 - root - INFO - Processing 1 sheets from XLSX
+2025-08-21 18:22:12,182 - root - WARNING - Error processing table region 1 in sheet 'Sheet1': Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+2025-08-21 18:22:12,182 - root - INFO - Detected document language: English (en)
+2025-08-21 18:22:12,183 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Processed xlsx document: 49 chars
+2025-08-21 18:22:12,183 - root - INFO - Mission detection - Primary: 0, Secondary: 0, URLs: 0, Is Mission: False
+2025-08-21 18:22:12,184 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Created 1 adaptive chunks
+2025-08-21 18:22:12,478 - faiss.loader - INFO - Loading faiss with AVX512 support.
+2025-08-21 18:22:12,478 - faiss.loader - INFO - Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2025-08-21 18:22:12,479 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-08-21 18:22:13,365 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-08-21 18:22:13,374 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-08-21 18:22:13,375 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q1: entity_identification query, complexity: low
+2025-08-21 18:22:14,400 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q1: Completed successfully
+2025-08-21 18:22:14,401 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 18:22:15,920 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q2: Completed successfully
+2025-08-21 18:22:15,921 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q3: procedural query, complexity: low
+2025-08-21 18:22:16,846 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q3: Completed successfully
+2025-08-21 18:22:16,846 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q4: general_inquiry query, complexity: low
+2025-08-21 18:22:17,849 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q4: Completed successfully
+2025-08-21 18:22:17,849 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 18:22:19,016 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Q5: Completed successfully
+2025-08-21 18:22:19,016 - 6e7e909f-8529-419d-be5c-413b4b8f45f8 - INFO - Completed in 7.42 seconds
+2025-08-21 18:23:15,156 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Universal processing: 5 questions
+2025-08-21 18:23:15,193 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2025-08-21 18:23:15,201 - root - INFO - Processing 1 sheets from XLSX
+2025-08-21 18:23:15,485 - root - INFO - Detected document language: English (en)
+2025-08-21 18:23:15,487 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Processed xlsx document: 7742 chars
+2025-08-21 18:23:15,487 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 18:23:15,492 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Created 8 adaptive chunks
+2025-08-21 18:23:15,734 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q1: entity_identification query, complexity: low
+2025-08-21 18:23:17,607 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q1: Completed successfully
+2025-08-21 18:23:17,607 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 18:23:19,167 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q2: Completed successfully
+2025-08-21 18:23:19,168 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q3: procedural query, complexity: low
+2025-08-21 18:23:21,016 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q3: Completed successfully
+2025-08-21 18:23:21,016 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q4: general_inquiry query, complexity: low
+2025-08-21 18:23:22,701 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q4: Completed successfully
+2025-08-21 18:23:22,702 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 18:23:24,435 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Q5: Completed successfully
+2025-08-21 18:23:24,436 - f9d1104c-89b3-45fa-9483-41ef1982c213 - INFO - Completed in 9.26 seconds
+2025-08-21 18:24:07,116 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Universal processing: 5 questions
+2025-08-21 18:24:07,156 - root - INFO - Detected content type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2025-08-21 18:24:07,171 - root - INFO - Processing 1 sheets from XLSX
+2025-08-21 18:24:07,224 - root - INFO - Detected document language: English (en)
+2025-08-21 18:24:07,225 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Processed xlsx document: 7742 chars
+2025-08-21 18:24:07,225 - root - INFO - Mission detection - Primary: 0, Secondary: 1, URLs: 0, Is Mission: False
+2025-08-21 18:24:07,229 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Created 8 adaptive chunks
+2025-08-21 18:24:07,458 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q1: entity_identification query, complexity: low
+2025-08-21 18:24:09,294 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q1: Completed successfully
+2025-08-21 18:24:09,294 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q2: general_inquiry query, complexity: low
+2025-08-21 18:24:10,831 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q2: Completed successfully
+2025-08-21 18:24:10,832 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q3: procedural query, complexity: low
+2025-08-21 18:24:12,659 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q3: Completed successfully
+2025-08-21 18:24:12,659 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q4: general_inquiry query, complexity: low
+2025-08-21 18:24:14,265 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q4: Completed successfully
+2025-08-21 18:24:14,265 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q5: definition_factual query, complexity: low
+2025-08-21 18:24:15,883 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Q5: Completed successfully
+2025-08-21 18:24:15,884 - 60da0c44-6aa4-4a10-aa14-a22f5b0f8a21 - INFO - Completed in 8.76 seconds

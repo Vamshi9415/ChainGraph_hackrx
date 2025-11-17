@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@hyperbrowser/agent": "^0.8.0"
+  }
+}
